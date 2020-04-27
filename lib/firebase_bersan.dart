@@ -8,7 +8,7 @@ import 'package:firebase_bersan/firebase/firebase_auth_bersan.dart';
 import 'package:firebase_bersan/firebase/firebase_cloud_bersan.dart';
 
 class FirebaseBersan {
-  // Auth
+  //  Auth
   static handleAuth({Widget index, Widget mainAppController}) {
     return Auth.handleAuth(index, mainAppController);
   }
